@@ -1,7 +1,18 @@
-export default function Home() {
+
+import Navbar from './components/navbar';
+import HeroSection from './components/HeroSection';
+
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
-}
+    <div className="App">
+      <section className="head">
+        <Navbar />
+      </section>
+      <section className="hero">
+        <HeroSection />
+      </section>
+    </div>
+  );
+};
+
+export default App;

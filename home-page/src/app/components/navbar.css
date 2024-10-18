@@ -1,0 +1,132 @@
+
+.navbar {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+  }
+  
+  .nav-logo {
+    color: #001B66;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    transition: transform 0.3s ease; 
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-link {
+    color: #001B66;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s; 
+  }
+  
+  .nav-item button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }#Signup {
+    color: white;
+    background-color: #001B66;
+    transition: background-color 0.3s ease;
+  }
+  
+  #Signup:hover {
+    background-color: #E28C67;
+  }
+  
+  #Signin {
+    color: #001B66;
+    background-color: white;
+    border: 1px solid #001B66;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  #Signin:hover {
+    background-color: #001B66;
+    color: white;
+  }
+  
+  .nav-link:hover {
+    color: #E28C67;
+  }
+  
+  .nav-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .fas {
+    color:#001B66;
+    font-size: 24px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-menu {
+      display: none;
+  
+      flex-direction: column;
+      background-color: white;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      height: 100vh; /* Prend tout l'écran pour un menu plein écran */
+      transform: translateX(100%); /* Menu caché initialement */
+      transition: transform 0.3s ease; /* Animation pour faire apparaître/disparaître */
+      box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Ombre pour le menu mobile */
+      z-index: 999;
+    }
+  
+    .nav-menu.active {
+      display: flex; /* Le menu s'affiche quand l'icône est cliquée */
+      transform: translateX(0); /* Fait apparaître le menu */
+    }
+    .nav-menu.active {
+      transform: translateX(0); /* Fait apparaître le menu */
+    }
+  
+    .nav-item {
+      margin: 20px 0; /* Espacement entre les éléments du menu mobile */
+    }
+  
+    .nav-link {
+      font-size: 22px; /* Taille de texte plus grande pour le mobile */
+    }
+  
+    .nav-icon {
+      display: block;
+    }
+  }
+  
+  .fas.fa-bars,
+  .fas.fa-times {
+    transition: color 0.3s ease;
+  }
+  
+  .fas.fa-bars:hover,
+  .fas.fa-times:hover {
+    color: #E28C67;
+  }

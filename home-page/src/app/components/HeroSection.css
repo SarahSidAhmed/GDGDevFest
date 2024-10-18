@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Perpetua+Titling+MT&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
+
+.main-container {
+  height: 533px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 20px;
+  background-color: #F9F4F1;
+}
+
+.container {
+    padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin-right: 70px;
+  font-size: 60px;
+  font-weight: bold;
+  color: #001B66;
+  font-family: 'Perpetua Titling MT', serif; 
+}
+.success {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  }
+  
+  .discription {
+    margin-top: 60px;
+    height: 450px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: center;
+    background-image: url('./images/AboutSection.png'); 
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+
+.discription-img {
+    position: absolute; 
+    top: -20%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 750px; 
+    height: auto; 
+}
+
+.discription-h3 {
+
+    width: 70%;
+    font-size: 18px; 
+    font-family: 'Outfit', sans-serif;
+    text-align: center; 
+    margin-bottom: 50px; 
+    color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+  
+.main-container {
+  width: 100%;
+  height: 533px;
+  flex-direction: column;
+}
+
+.container img {
+width: 80%;
+height: auto;
+}
+
+.container {
+  flex-direction: column;
+}
+ 
+h1 {
+  margin-right: 50px;
+  font-size: 30px; 
+}
+
+  .discription {
+    height: 400px;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: center;
+    position: relative; 
+}
+
+.discription-img {
+    width: 80%; 
+    height: 250px;
+}
+
+.discription-h3 {
+
+    width: 70%;
+    font-size: 18px; 
+    font-family: 'Outfit', sans-serif;
+    text-align: center; 
+    margin-bottom: 50px; 
+    color: white;
+}
+
+
+}
