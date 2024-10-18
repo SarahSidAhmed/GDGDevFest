@@ -1,6 +1,7 @@
 
 import Navbar from './components/navbar';
 import HeroSection from './components/HeroSection';
+import Dash from './components/Dash';
 
 const App = () => {
   return (
@@ -11,6 +12,10 @@ const App = () => {
       <section className="hero">
         <HeroSection />
       </section>
+      <section className="Dash">
+        <Dash />
+      </section>
+      
     </div>
   );
 };

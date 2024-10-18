@@ -4,9 +4,10 @@
 .main-container {
   height: 533px;
   display: flex;
+  flex-direction: row;
   justify-content: center; 
   align-items: center;
-  padding: 20px;
+  padding: 40px;
   background-color: #F9F4F1;
 }
 
@@ -17,8 +18,8 @@
 }
 
 h1 {
-  margin-right: 70px;
-  font-size: 60px;
+  margin-left: 30px;
+  font-size: 50px;
   font-weight: bold;
   color: #001B66;
   font-family: 'Perpetua Titling MT', serif; 
@@ -30,24 +31,19 @@ h1 {
   }
   
   .discription {
-    margin-top: 60px;
+    margin-top: 100px;
     height: 450px; 
     display: flex;
     flex-direction: column;
     justify-content: flex-end; 
     align-items: center;
-    background-image: url('./images/AboutSection.png'); 
-    background-size: cover;
-    background-position: center;
-    position: relative; 
+background-color: #001B66;
+  
 }
 
 .discription-img {
-    position: absolute; 
-    top: -20%; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    width: 750px; 
+    width: 600px !important; 
+    margin-bottom: 55px !important;
     height: auto; 
 }
 
@@ -70,35 +66,38 @@ h1 {
   flex-direction: column;
 }
 
-.container img {
-width: 80%;
-height: auto;
-}
 
 .container {
   flex-direction: column;
 }
  
-h1 {
-  margin-right: 50px;
-  font-size: 30px; 
+.container-img {
+width: 70%;
+height: auto;
+margin-bottom: 20px;
 }
 
+h1 {
+  width: 80%;
+  margin: auto;
+  font-size: 40px; 
+}
+.discription-img{
+  width: 70% !important;
+  height: auto;
+  margin-bottom: 20px;
+
+}
   .discription {
     height: 400px;
+    margin-top: 50px;
     flex-direction: column;
     justify-content: flex-end; 
     align-items: center;
-    position: relative; 
-}
 
-.discription-img {
-    width: 80%; 
-    height: 250px;
 }
 
 .discription-h3 {
-
     width: 70%;
     font-size: 18px; 
     font-family: 'Outfit', sans-serif;
