@@ -1,4 +1,7 @@
+"use client";
 
+
+import FirstPage from '../compounents/FirstPage';
 import Footer from '../compounents/Footer';
 import QA from '../compounents/Q&A';
 import Navbar from '../compounents/navbar';
@@ -13,6 +16,7 @@ const HomePage = () => {
       <Navbar />
       <HeroSection/>
       <Dash/>
+      <FirstPage />
       <QA />
       <Footer />
    </div>

@@ -16,6 +16,7 @@ const Dash: React.FC = () => {
       src={im2}
       alt="Dash"
       layout="fixed"
+     
     />
  
    
