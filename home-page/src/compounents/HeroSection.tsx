@@ -1,7 +1,7 @@
 import React from 'react';
 import './HeroSection.css';
 import Image from 'next/image';
-import im1 from './images/Hero.png';
+import im1 from '../images/Hero.png';
 
 
 const HeroSection: React.FC = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import './HeroSection.css';
 import Image from 'next/image';
-import im2 from './images/dash.png';
+import im2 from '../images/dash.png';
 
 const Dash: React.FC = () => {
   return (
