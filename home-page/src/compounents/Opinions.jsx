@@ -5,12 +5,14 @@ import { opinions } from './data';
 
 const Opinions = () => {
   return (
-    <section className='mt-[-450px] py-[50px]' style={{ backgroundColor: "#001B66" }}>
-      <img src="shape.png" alt="" className='absolute mt-[-230px]' style={{ right: '0px' }} />
-      <h1 className='font-bold text-6xl px-[200px] pb-[60px] text-center leading-snug text-white'>
+    <section className='py-[20px] md:py-[50px]' style={{ backgroundColor: "#001B66" }}>
+   
+
+      <h3 className='font-bold text-4xl sm:text-3xl md:text-4xl lg:text-5xl px-4 sm:px-8 md:px-16 lg:px-[100px] pb-[30px] text-center leading-snug text-white'>
         Read What The <br /> Others Have To Say
-      </h1>
-      <div className='flex flex-col md:flex-row gap-[50px] md:gap-[100px] m-[50px]'>
+      </h3>
+
+      <div className='flex flex-col md:flex-row gap-[20px] md:gap-[50px] m-4 md:m-[20px]'>
         {opinions.map((val, index) => {
           return (
             <div className='w-full md:w-[360px] h-[253px] rounded-3xl' style={{ backgroundColor: val.color }} key={index}>
