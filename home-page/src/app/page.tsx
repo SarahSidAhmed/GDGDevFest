@@ -12,6 +12,7 @@ const HomePage = () => {
     <div>
       <Navbar />
       <HeroSection/>
+      <Dash/>
       <QA />
       <Footer />
    </div>
