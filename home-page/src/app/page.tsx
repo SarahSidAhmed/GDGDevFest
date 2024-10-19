@@ -1,7 +1,15 @@
-export default function Home() {
+"use client";
+
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import FirstPage from './Components/FirstPage';
+
+export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<FirstPage />} />
+        <Route path="/" element={<Navigate to="/" />} />
+      </Routes>
+    </Router>
+  );
 }
