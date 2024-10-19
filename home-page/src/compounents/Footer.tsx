@@ -23,7 +23,7 @@ export default function Footer() {
         <div className='grid grid-cols-1 justify-center gap-4 w-full lg:w-[80%] px-8 pt-8 lg:px-2'>
           <div className='grid grid-cols-1 justify-center gap-2'>
             <h1 className='font-bold font-outfit text-2xl text-[#001B66]'>Join Our Newsletter</h1>
-            <p className='font-outfit text-xl text-[#001B66]'>Be up to date with everything new</p>
+            <p className='font-outfit text-xl text-[#001B66] '>Be up to date with everything new</p>
           </div>
           <input 
             type="email" 

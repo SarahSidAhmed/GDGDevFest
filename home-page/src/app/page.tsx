@@ -11,7 +11,7 @@ const HomePage = () => {
   return (
     <div>
       <Navbar />
-     
+      <HeroSection/>
       <QA />
       <Footer />
    </div>

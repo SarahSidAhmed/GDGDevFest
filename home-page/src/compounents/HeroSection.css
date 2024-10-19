@@ -1,25 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Perpetua+Titling+MT&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
 
-.main-container {
-  height: 533px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center; 
-  align-items: center;
-  padding: 40px;
-  background-color: #F9F4F1;
-}
 
-.container {
-    padding: 15px;
-  display: flex;
-  align-items: center;
-}
 
 h1 {
-  margin-left: 30px;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bold;
   color: #001B66;
   font-family: 'Perpetua Titling MT', serif; 
@@ -27,7 +12,7 @@ h1 {
 .success {
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: #001B66;
   }
   
   .discription {
@@ -43,7 +28,6 @@ background-color: #001B66;
 
 .discription-img {
     width: 600px !important; 
-    margin-bottom: 55px !important;
     height: auto; 
 }
 
@@ -53,7 +37,6 @@ background-color: #001B66;
     font-size: 18px; 
     font-family: 'Outfit', sans-serif;
     text-align: center; 
-    margin-bottom: 50px; 
     color: white;
 }
 
@@ -81,6 +64,7 @@ h1 {
   width: 80%;
   margin: auto;
   font-size: 40px; 
+  text-align: center;
 }
 .discription-img{
   width: 70% !important;

@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav 
-      className="flex flex-row justify-between items-center gap-8 fixed w-full m-auto px-8 py-4 bg-[#F9F4F1]"
+      className="flex flex-row justify-between items-center gap-8 fixed w-full m-auto px-8 py-4 bg-[#F9F4F1] h-[45px] lg:h-[85px]"
       style={{ boxShadow: '0 2px 4px rgba(0, 27, 102, 0.5)' }} 
     >
       <div className="text-xl">LOGO</div>
