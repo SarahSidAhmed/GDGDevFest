@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav 
-      className="flex flex-row justify-between items-center gap-8 fixed w-full m-auto px-8 py-4 bg-[#F9F4F1] h-[45px] lg:h-[85px] z-1"
+      className="flex flex-row justify-between items-center gap-8  w-full m-auto px-8 py-4 bg-[#F9F4F1] h-[45px] lg:h-[85px] z-100"
       style={{ boxShadow: '0 2px 4px rgba(0, 27, 102, 0.5)' }} 
     >
       <div className="text-xl">LOGO</div>
@@ -21,8 +21,8 @@ const Navbar = () => {
           <a href="#Q&A" className='hover:text-[#E28C67]'>Q&A</a>
         </div>
         <div className='flex flex-row justify-between items-center gap-8 text-2xl'>
-          <button className='text-[#001B66] border-2 border-[#001B66] px-8 py-2 rounded-xl hover:text-[#F9F4F1] hover:bg-[#001B66]'>Sign in</button>
-          <button className='text-[#F9F4F1] bg-[#001B66] px-8 py-2 rounded-xl hover:text-[#001B66] hover:bg-[#F9F4F1] hover:border-2 hover:border-[#001B66]'>Sign up</button>
+          <button className='text-[#001B66] border-2 border-[#001B66] px-8 py-2 rounded-xl hover:text-[#F9F4F1] hover:bg-[#001B66]'>  <a href="http://localhost:3000/sign-in">Sign in</a></button>
+          <button className='text-[#F9F4F1] bg-[#001B66] px-8 py-2 rounded-xl hover:text-[#001B66] hover:bg-[#F9F4F1] hover:border-2 hover:border-[#001B66]'>  <a href="http://localhost:3000/sign-up">Sign Up</a></button>
         </div>
       </div>
 
